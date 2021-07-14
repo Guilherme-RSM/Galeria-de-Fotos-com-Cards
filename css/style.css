@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
+
+h1 {
+  color: white;
+  text-shadow: 1px 2px 2pz black, 0 0 25px;
+  ;
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://www.teahub.io/photos/full/174-1744247_wallpaper-pattern-wallpapers-awesome-pattern-wallpapers-background-hd.jpg);
+  background-repeat: repeat;
+}
+
+#galeria-fotos {
+  font-size: 3em;
+  font-family: 'Raleway', sans-serif;
+  user-select: none;
+}
+
+#fauna {
+  font-family: 'Raleway', sans-serif;
+  user-select: none;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.foto {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.galeria {
+  margin: 10px 20px;
+  box-shadow: 0 1px 10px 1px rgba(255, 255, 255, 0.459);
+  float: left;
+  width: 245px;
+  background-color: rgba(255, 255, 255, 0.548);
+  margin-left: 55px;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+
+.galeria:hover {
+  border: 5px solid white;
+  transform: rotate(-3deg);
+  width: 300px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.pie {
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
